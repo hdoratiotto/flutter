@@ -9,6 +9,7 @@ class _CadastroState extends State<Cadastro> {
   final TextEditingController _usuarioController = new TextEditingController();
   final TextEditingController _senhaController = new TextEditingController();
   String _bemvindo = "";
+  String _bem = "";
 
   void _mostraBemVindo() {
     setState(() {
